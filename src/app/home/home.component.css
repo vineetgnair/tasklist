@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+}
+table tr td{
+    font-size: .8rem;
+}
+table .btn{
+    font-size: .7rem;
+}
+
+@media( max-width: 442px){
+    table tr th:nth-child(3) {
+        width: 300px;
+    }
+}
